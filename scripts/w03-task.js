@@ -41,7 +41,7 @@ const multiplyNumbers = () => {
     document.querySelector('#product').value = product;
 }
 
-document.querySelector('#muliplyNumbers').addEventListener('click', multiplyNumbers);
+document.querySelector('#multiplyNumbers').addEventListener('click', multiplyNumbers);
 /* Open Function Use - Divide Numbers */
 function Divide(dividend, divisor){
     if (divisor === 0) return "Cannot divide by zero";
