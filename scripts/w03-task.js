@@ -68,7 +68,7 @@ document.querySelector('#array').innerText = numbers.join(", ");
 
 /* Output Odds Only Array */
 let odds = numbers.filter(num => num % 2 !==0);
-document.querySelector('#odds').innerText = odss.join(", ");
+document.querySelector('#odds').innerText = odds.join(", ");
 
 /* Output Evens Only Array */
 let evens = numbers.filter(num => num % 2 === 0);
