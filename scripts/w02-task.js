@@ -19,7 +19,7 @@ const imageElement = document.querySelector("img[src='images/placeholder.png']")
 nameElement.innerHTML = `<strong>${fullName}</strong>`;
 yearElement.textcontent = currentYear;
 imageElement.setAttribute('src', profilePicture);
-imageElement.setAttribute('alt', 'Profile image of ${fullName}')
+imageElement.setAttribute('alt', `Profile image of ${fullName}`)
 
 
 
