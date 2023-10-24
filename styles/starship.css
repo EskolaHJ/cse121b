@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+#starships {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#starships div {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    max-width: 250px;
+    text-align: center;
+}
+
+#starships img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
